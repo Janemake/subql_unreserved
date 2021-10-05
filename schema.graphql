@@ -2,5 +2,5 @@ type Unreserved @entity {
   id: ID!
   unreservefrom: String!
   unreserveAmount: BigInt
-  timestamp: Date!
+  timestamp: Date
 }
